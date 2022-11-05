@@ -1,0 +1,78 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	background-color: rgb(230, 221, 209);
+}
+
+.accordion-panel {
+	display: none;
+
+}
+
+.tab-panel.active {
+	display: block;
+}
+
+ul.accordion {
+	list-style: none;
+	margin-left: 0;
+	padding-left: 0;
+	font-size: large;
+}
+
+button.accordion-control {
+	background-color: rgb(221, 43, 43);
+	padding: 10px;
+	display: block;
+	width: 80%;
+	margin : 0 auto;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: large;
+}
+
+.accordion-panel {
+	display: none;
+	padding: 10px;
+	font-size: 1em;
+	font-size: 15px;
+	width: 77%;
+	margin: 0 auto;
+}
+
+ul.tab-list {
+    padding-inline-start: 0px;
+}
+
+ul.tab-list li {
+	display: inline-block;
+	padding: 10px;
+	border: 3px solid rgba(16, 49, 234, 0.41);
+}
+
+a:link {
+	color:rgba(243, 111, 17, 0.41);
+	text-decoration: none;
+}
+
+ul.tab-list li.active {
+	background-color:rgb(116, 123, 243);
+}
+
+ul.tab-list li.active a {
+	color: rgb(33, 61, 61);
+}
+
+.tab-panel {
+	display: none;
+	width: 200px;
+	padding: 100px;
+	border: 3px solid rgba(60, 4, 119, 0.41);
+  	margin: 0 auto;
+}
+
+.tab-panel.active {
+	display: block;
+}
+
